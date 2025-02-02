@@ -2,35 +2,21 @@
 import Container from '../components/Container.astro';
 import Networks from '../components/Networks.astro';
 import Layout from '../layouts/Layout.astro';
-const networks = [
-	{
-		icon:'/icon/LinkedIn.png',
-		link:'https://www.linkedin.com/in/iberson-silva-890532259/'
-	},
-	{
-		icon:'/icon/Outlook.png',
-		link:'mailto:iberson-silva@outlook.com'
-	},
-	{
-		icon:'/icon/GitHub.png',
-		link:'https://github.com/Iberson-AndSil'
-	},
-]
+import personal from "../data/personal";
+import Footer from "../components/footer.astro";
 ---
 
 <Layout>
 	<div class="flex-row justify-end hidden md:flex md:h-5/6 md:flex-col">
-		{networks.map((network)=>(
+		{personal.networks.map((network)=>(
 			<Networks icon={network.icon} link={network.link}/>
 		))}
 	</div>
-	<Container/>
-		
-    <div class="text-white text-center mt-2 inline md:hidden mx-3 my-3">
+	<Container/>	
+    <section class="text-white text-center mb-6 mt-5 inline md:hidden mx-3">
 	  <span class="text-white text-center text-xl md:text-2xl font-normal">About Me</span>
-      <p class="text-[15px] font-semibold text-justify mt-3">Desarrollador Frontend | Bach. en Ingeniería de Informática y Sistemas</p>
-      <p class="text-sm mt-2 text-justify">Desarrollador Frontend con experiencia en la creación de aplicaciones web responsive.
-        Como experiencia realicé mis prácticas preprofesionales en Lead Working Partner, colaboré en la optimización y desarrollo 
-        de la versión responsive de su ERP.</p>
-    </div>
+      <p class="text-[15px] font-semibold text-justify mt-3">{personal.title}</p>
+      <p class="text-sm mt-2 text-justify">{personal.description}</p>
+    </section>
+	<Footer/>
 </Layout>

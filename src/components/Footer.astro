@@ -1,0 +1,24 @@
+---
+import personal from "../data/personal";
+import Networks from "./Networks.astro";
+---
+
+<footer class="flex flex-col md:hidden text-white bg-slate-500 px-3 py-4">
+    <div class="flex justify-between">
+        <div class="flex flex-col">
+            <span class="text-[15px] font-semibold">Contact</span>
+            {personal.contact.map((contact=>(
+                <span>{contact.item}</span>
+            )))}
+        </div>
+        <div class="flex flex-col">
+            <span class="text-[15px] font-semibold">Network Socials</span>
+            <div class="flex">
+            {personal.networks.map((network)=>(
+                <Networks icon={network.icon} link={network.link}/>
+            ))}
+            </div>
+        </div>
+    </div>
+    <span class="text-center mt-3 mb-1 text-sm">© 2025 Diseñado y Desarrollado por Iberson Silva.</span>
+</footer>
