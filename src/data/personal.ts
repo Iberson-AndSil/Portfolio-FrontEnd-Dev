@@ -2,8 +2,8 @@ const personal = {
     title: "Desarrollador Frontend | Est. en Ingeniería de Informática y Sistemas",
     description: "Desarrollador Frontend con experiencia en la creación de aplicaciones web responsive. Como experiencia realicé mis prácticas preprofesionales en Lead Working Partner, colaboré en la optimización y desarrollo de la versión responsive de su ERP.",
     contact: [
-        {item: "Tingo María Perú"},
-        {item: "(+51) 900661606"}
+        {item: "City: Tingo María, Perú"},
+        {item: "Tel: (+51) 900661606"}
     ],
     networks: [
         {
