@@ -1,0 +1,29 @@
+.carousel-container {
+  position: relative;
+}
+
+.carousel-slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  background-color: #8996a8;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}

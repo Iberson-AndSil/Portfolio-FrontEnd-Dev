@@ -1,0 +1,25 @@
+---
+const { description, image, link, technologies } = Astro.props;
+---
+
+<div class="flex flex-col w-80 h-auto">
+    <div class="relative rounded-lg overflow-hidden shadow-lg border-solid border-slate-300 border-2">
+        <img src={image} alt={description} class="w-full h-48 object-cover" />
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <a href={link} target="_blank" rel="noopener noreferrer"
+            class="absolute rounded-full bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-2 bg-white
+            border-solid border-slate-300 border-2 text-slate-600 hover:bg-slate-400 hover:text-white transition">
+            Deploy
+        </a>
+    </div>
+    <div class="flex flex-col items-center">
+        <span class="text-white">{description}</span>
+        <div class="flex">
+            {
+                technologies.map((tech: { icon: undefined; name: undefined; }) => (
+                    <img class="w-6 mx-1" src={tech.icon} alt={tech.name} />
+                ))
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+---
+const {icon,link} = Astro.props;
+---
+
+<a href={link} target="_blank" rel="noopener noreferrer" 
+class="flex justify-center items-center drop-shadow-2xl my-1 mr-1 rounded-full hover:bg-white bg-slate-400 w-10 h-10 overflow-hidden">
+    <img class="w-7" src={icon} alt="Icono" />
+</a>
