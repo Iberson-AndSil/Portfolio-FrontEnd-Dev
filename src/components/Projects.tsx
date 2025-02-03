@@ -5,7 +5,7 @@ import Carousel from "./Carousel.tsx";
 
 const SkillSection = () => {
   return (
-    <div class="w-full md:w-8/12 flex flex-col items-center justify-center md:mt-0 h-full">
+    <div class="w-full flex flex-col items-center justify-center md:mt-0">
       <span class="text-white text-xl md:text-2xl mb-3 mt-4 md:mt-0 font-normal">
         Technologies and Tools
       </span>

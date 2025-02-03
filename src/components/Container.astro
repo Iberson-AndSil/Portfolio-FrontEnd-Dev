@@ -2,7 +2,8 @@
 import Photo from "./Photo.astro";
 import "../style/fonts.css";
 import personal from "../data/personal";
-import Projects from "./Projects.tsx";
+// import Projects from "./Projects.tsx";
+import Navigation from "./Navigation";
 ---
 
 <section class="flex flex-col md:flex-row md:shadow-2xl mt-3 md:mt-0
@@ -32,5 +33,6 @@ import Projects from "./Projects.tsx";
           <p class="text-sm mt-2">{personal.description}</p>
         </div>
   </div>
-  <Projects client:only/>
+  <!-- <Projects client:only/> -->
+  <Navigation client:only/>
 </section>
