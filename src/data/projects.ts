@@ -2,7 +2,7 @@ const projects = [
     {
         description: 'Sistema Punto de Ventas - Versión mobile',
         image: '/projects/proyecto4.jpg',
-        link: 'https://point-of-sale-3h6byojww-ibersonandsils-projects.vercel.app/sales',
+        link: 'https://point-of-sale-rosy.vercel.app/sales',
         technologies: [
             {
                 icon: '/icon/Angular.png',
@@ -39,8 +39,8 @@ const projects = [
         link: 'https://www.figma.com/proto/NLdkrDq1yjnSR8e4bLVQuJ/BIBLIOWEB-UNAS?node-id=733-166&p=f&t=weZFT7YsxPdLJXTp-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=733%3A166&show-proto-sidebar=1',
         technologies: [
             {
-                icon: '/icon/Photoshop.png',
-                name: 'Photoshop'
+                icon: '/icon/Figma.png',
+                name: 'Figma'
             }
         ]
     },
