@@ -7,7 +7,7 @@ const SkillSection = () => {
   return (
     <div class="w-full flex flex-col items-center justify-center md:mt-0">
       <span class="text-white text-xl md:text-2xl mb-3 mt-4 md:mt-0 font-normal">
-        Technologies and Tools
+        Tecnologías y Herramientas
       </span>
       <div class="flex flex-wrap justify-around">
         {skills.map((skill, index) => (
@@ -15,7 +15,7 @@ const SkillSection = () => {
         ))}
       </div>
       <span class="text-white text-xl md:text-2xl mb-3 mt-10 md:mt-3 font-normal">
-        My Projects
+        Mis Proyectos
       </span>
       <Carousel projectData={projectData} />
     </div>

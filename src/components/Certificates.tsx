@@ -40,7 +40,7 @@ const Certificates = ({certificates}: {certificates:Cert[]}) => {
   return (
     <div className="carousel-container mt-5 w-4/5 md:w-auto mx-auto">
        <p class="text-white text-center text-xl md:text-2xl mb-3 mt-4 md:mt-0 font-normal">
-        Certificates
+        Certificados
         </p>
       <div className="carousel-slides flex space-x-4">
         {certificates.slice(currentIndex, currentIndex + slidesToShow).map((cert, idx) => (
@@ -51,7 +51,7 @@ const Certificates = ({certificates}: {certificates:Cert[]}) => {
                 <a href={cert.link} target="_blank" rel="noopener noreferrer"
                   className="absolute rounded-full bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-2 bg-[#245bb1] poppins-light
                   text-slate-200 hover:bg-slate-200 hover:text-slate-600 transition text-sm">
-                  Verify</a>
+                  Verificar</a>
               </div>
               <div className="flex flex-col items-center">
                 <span className="text-white w-auto">{cert.description}</span>

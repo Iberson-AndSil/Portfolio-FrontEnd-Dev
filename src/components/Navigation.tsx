@@ -13,11 +13,11 @@ const Navigation = () => {
               <div class="text-start">
                   <button class={`px-4 py-2 transition ${selected === true ? "bg-gray-300 text-black font-medium" : "bg-[#245bb1] text-white"}`}
                       onClick={() => setSelected(true)}>
-                      Projects</button>
+                      Proyectos</button>
 
                   <button class={`px-4 py-2 transition ${selected === false ? "bg-gray-300 text-black font-medium" : "bg-[#245bb1] text-white"}`}
                       onClick={() => setSelected(false)}>
-                      Certificates
+                      Certificados
                   </button>
               </div>
               {selected === true ?<Projects />:<Certificates certificates={certificates}/>}
