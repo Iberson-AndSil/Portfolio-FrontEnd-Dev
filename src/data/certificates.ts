@@ -6,6 +6,12 @@ const cert=[
         link:'https://www.freecodecamp.org/certification/fccdf3d1b92-a163-4b6c-8f69-692ba37c8d00/javascript-algorithms-and-data-structures',
     },
     {
+        root:'/certificates/certificate-three.jpg',
+        name:'freecodecamp',
+        description: 'Emitido por: freeCodeCamp',
+        link:'https://www.freecodecamp.org/certification/fccdf3d1b92-a163-4b6c-8f69-692ba37c8d00/responsive-web-design',
+    },
+    {
         root:'/certificates/certificate-two.jpg',
         name:'soylider.net',
         description: 'Emitido por: soylider.net',

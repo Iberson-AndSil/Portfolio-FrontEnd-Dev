@@ -2,7 +2,6 @@
 import Photo from "./Photo.astro";
 import "../style/fonts.css";
 import personal from "../data/personal";
-// import Projects from "./Projects.tsx";
 import Navigation from "./Navigation";
 ---
 
@@ -33,6 +32,5 @@ import Navigation from "./Navigation";
           <p class="text-sm mt-2">{personal.description}</p>
         </div>
   </div>
-  <!-- <Projects client:only/> -->
   <Navigation client:only/>
 </section>

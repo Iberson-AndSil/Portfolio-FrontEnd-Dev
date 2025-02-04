@@ -4,6 +4,8 @@ import Networks from '../components/Networks.astro';
 import Layout from '../layouts/Layout.astro';
 import personal from "../data/personal";
 import Footer from "../components/Footer.astro";
+import Certificates from '../components/Certificates';
+import certificates from "../data/certificates";
 ---
 
 <Layout>
@@ -13,10 +15,13 @@ import Footer from "../components/Footer.astro";
 		))}
 	</div>
 	<Container/>	
-    <section class="text-white text-center mb-6 mt-10 inline md:hidden mx-3">
+    <section class="text-white text-center mb-5 mt-10 inline md:hidden mx-3">
 	  <span class="text-white text-center text-xl md:text-2xl font-normal">About Me</span>
       <p class="text-[15px] font-semibold text-justify mt-3">{personal.title}</p>
       <p class="text-sm mt-2 text-justify">{personal.description}</p>
     </section>
+	<div class="inline md:hidden">
+		<Certificates client:only certificates={certificates}/>
+	</div>
 	<Footer/>
 </Layout>
