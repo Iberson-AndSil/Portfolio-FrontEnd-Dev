@@ -1,6 +1,6 @@
 const personal = {
     title: "Desarrollador Frontend | Est. en Ingeniería de Informática y Sistemas",
-    description: "Desarrollador Front-End con experiencia en Angular, Astro y Svelte. Especialista en interfaces web modernas y responsivas, aplicando BEM y Tailwind CSS. He desarrollado módulos para ERP y sitios web adaptables a múltiples plataformas.",
+    description: "Desarrollador Front-End con experiencia en Angular, Astro, React y Svelte. Especialista en interfaces web modernas y responsivas, aplicando BEM y Tailwind CSS. He desarrollado módulos para ERP, sitios web adaptables y sistemas eCommerce, utilizando Next.js, Ant Design e integración de APIs.",
     curriculum:'https://drive.google.com/file/d/1Ej4nChAo-uUWNcP6fl3PA9z2zv0myEmS/view?usp=sharing',
     contact: [
         {item: "City: Tingo María, Perú"},

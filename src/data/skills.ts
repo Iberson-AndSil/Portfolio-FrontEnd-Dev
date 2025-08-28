@@ -12,6 +12,10 @@ const skills = [
         name: "Svelte"
     },
     {
+        icon: "/icon/React.png",
+        name: "React"
+    },
+    {
         icon: "/icon/JavaScript.png",
         name: "JavaScript"
     },
@@ -48,12 +52,24 @@ const skills = [
         name: "Vercel"
     },
     {
+        icon: "/icon/Firebase.png",
+        name: "Firebase"
+    },
+    {
         icon: "/icon/Tailwind CSS.png",
         name: "Tailwind"
     },
     {
         icon: "/icon/Bootstrap.png",
         name: "Bootstrap"
+    },
+    {
+        icon: "/icon/Ant Design.png",
+        name: "Ant Design"
+    },
+    {
+        icon: "/icon/MongoDB.png",
+        name: "MongoDB"
     },
     {
         icon: "/icon/Figma.png",

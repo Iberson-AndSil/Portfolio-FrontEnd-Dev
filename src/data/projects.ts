@@ -1,5 +1,51 @@
 const projects = [
     {
+        description: 'Sistema de Evaluación Geriátrica',
+        image: '/projects/proyecto6.jpg',
+        link: 'https://geriatricevaluation.netlify.app/',
+        technologies: [
+            {
+                icon: '/icon/React.png',
+                name: 'React'
+            },
+            {
+                icon: '/icon/Ant Design.png',
+                name: 'TypeScript'
+            },
+            {
+                icon: '/icon/Tailwind CSS.png',
+                name: 'Tailwind'
+            },
+            {
+                icon: '/icon/Firebase.png',
+                name: 'Firebase'
+            },
+        ]
+    },
+    {
+        description: 'LANDAI - Generación de páginas Web con IA',
+        image: '/projects/proyecto7.jpg',
+        link: 'https://landai.dev/login',
+        technologies: [
+            {
+                icon: '/icon/React.png',
+                name: 'React'
+            },
+            {
+                icon: '/icon/Ant Design.png',
+                name: 'TypeScript'
+            },
+            {
+                icon: '/icon/Tailwind CSS.png',
+                name: 'Tailwind'
+            },
+            {
+                icon: '/icon/MongoDB.png',
+                name: 'MongoDB'
+            },
+        ]
+    },
+    {
         description: 'Sistema Punto de Ventas - Versión mobile',
         image: '/projects/proyecto4.jpg',
         link: 'https://point-of-sale-rosy.vercel.app/sales',
@@ -33,6 +79,7 @@ const projects = [
             },
         ]
     },
+
     {
         description: 'Prototipo Biblioweb - Versión mobile',
         image: '/projects/proyecto5.jpg',
@@ -45,26 +92,7 @@ const projects = [
         ]
     },
     {
-        description: 'Portfolio Personal',
-        image: '/projects/proyecto2.jpg',
-        link: 'https://silvaiberson03.netlify.app/',
-        technologies: [
-            {
-                icon: '/icon/Astro.png',
-                name: 'Astro'
-            },
-            {
-                icon: '/icon/JavaScript.png',
-                name: 'JavaScript'
-            },
-            {
-                icon: '/icon/Tailwind CSS.png',
-                name: 'Tailwind'
-            },
-        ]
-    },
-    {
-        description: 'Landing Page Rubio Odontología',
+        description: 'Sitio Web Rubio Odontología',
         image: '/projects/proyecto3.jpg',
         link: 'https://rubio-odontologia-iytzpl5md-iberson-andsil.vercel.app/',
         technologies: [
